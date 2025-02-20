@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỷ yếu lớp 12D2</title>
+    <style>
+        /* Reset các thuộc tính mặc định */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 20px 0;
+            border-radius: 0 0 20px 20px; /* Bo góc dưới cho header */
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #3e7db9;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro, .activities {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .intro h2, .activities h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .intro p, .activities p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #3e7db9;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #2b5d85;
+        }
+
+        footer {
+            background-color: #2d3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px 20px 0 0; /* Bo góc trên cho footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kỷ yếu lớp 12D2</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"></a></li>
+                    <li><a href="hoatdong.html"></a></li>
+                    <li><a href="thanhvien.html"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Chào mừng đến với trang kỷ yếu lớp 12D2</h2>
+                <p>Trang web này được tạo ra để lưu giữ những kỷ niệm đẹp của lớp 12D2, nơi chia sẻ những hoạt động và thông tin về các thành viên trong lớp. Cùng nhau khám phá những khoảnh khắc đáng nhớ!</p>
+                <a href="thanhvien.html" class="btn">Khám phá các thành viên</a>
+            </div>
+        </section>
+
+        <section class="activities">
+            <div class="container">
+                <h2>Hoạt động của lớp</h2>
+                <p>bọn em đã tham gia nhiều hoạt động thú vị trong suốt năm học. Dưới đây là những hoạt động nổi bật.</p>
+                <a href="hoatdong.html" class="btn">Xem thêm</a>
+            </div>
+        </section>
+    </main>
+    </footer>
+</body>
+</html>
